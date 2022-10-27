@@ -1,0 +1,41 @@
+.activecarts {
+  background-color: #E5E5E5;;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  margin:1rem;
+  border: 1px solid #dbdbdc;
+}
+.line {
+  border-top: 3px solid #dbdbdc;
+}
+.activecarts__headings {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  color: #8894a0;
+  margin-bottom: 10px ;
+  margin-top: 5px ;
+  max-width: 100%;
+}
+.acticecarts__headings span {
+  color: black;
+}
+.cartItems {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+

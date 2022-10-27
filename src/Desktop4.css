@@ -1,0 +1,71 @@
+.desktop4 {
+  background-color:  #F6F8FA;;
+  height:auto;
+}
+.Desktop4__content {
+  max-width: 100%;
+  background-color: #34495e;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.Desktop4__content Link {
+  text-decoration: none;
+}
+.Desktop4__left {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Desktop4__left h5 {
+  margin-left: 15px;
+}
+.desktop4__boxes{
+    max-width:100%;
+}
+.desktop4__firstbox {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #fff;
+    width:50%;
+    margin:0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.desktop4__firstbox h4{
+    display:flex;
+    width:100%;
+    background-color:#E4E4E4;
+    border-radius:4px 4px 0px 0px;
+    padding:10px 0px;
+}
+.desktop4__assemblytype {
+  max-width:100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* justify-content: space-between;
+  align-items: center;
+  text-align: center; */
+  margin-top:10px;
+}
+
+.desktop4__assemblytype select{
+  width:300px;
+  padding:8px;
+  background-color: #FFFFFF;
+  border:1px solid #E4E4E4;
+  border-radius: 4px;
+  float:right;
+}
+.lockFlex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}

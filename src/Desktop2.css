@@ -1,0 +1,50 @@
+.Desktop2{
+    background-color:  #E5E5E5;
+    height:100vh;
+}
+.Desktop2__content{
+    max-width: 100%;
+    background-color: #34495E;
+    color:#fff;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Desktop2__left{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.Desktop2__left h5{
+    margin-left:15px;
+}
+.Desktop2__boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.Desktop2__singlebox{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width:60%;
+    background-color: white;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding:1.2rem 2rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;;
+}
+.Desktop2__singlebox p{
+    color:#8894A0;
+}
+
+.Desktop2__singlebox__right {
+   margin-left: 6rem;
+}
